@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="CloudDB">
+  <DataContextMoniker Name="/CloudDBDataContext" />
+  <nestedChildShapes>
+    <classShape Id="1093d9e6-376b-44a1-a3b6-6dac32cd14da" absoluteBounds="0.75, 1.375, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/CloudDBDataContext/CloudMstSymbol" />
+      <nestedChildShapes>
+        <elementListCompartment Id="38484a34-f28b-40b0-968f-eff4c50a08ba" absoluteBounds="0.765, 1.835, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e8f9255a-43c2-48df-b09f-3895798d8164" absoluteBounds="3.5, 1, 2, 2.5401025390625005">
+      <DataClassMoniker Name="/CloudDBDataContext/CloudTrnStockPrice" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3eec2826-aded-4198-a131-7d35bebe9cfd" absoluteBounds="3.515, 1.46, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 2.16429768880208); (3.5 : 2.16429768880208)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/CloudDBDataContext/CloudMstSymbol/MstSymbol_TrnStockPrice" />
+      <nodes>
+        <classShapeMoniker Id="1093d9e6-376b-44a1-a3b6-6dac32cd14da" />
+        <classShapeMoniker Id="e8f9255a-43c2-48df-b09f-3895798d8164" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
